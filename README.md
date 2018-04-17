@@ -32,3 +32,6 @@ In the second example a developer could just type an import statement in an orga
 ```javascript
 from 'react' import { Component };
 ```
+
+## So... you want this instead of import ... from?
+No. The proposal offers this syntax as an alternative to `import ... from` syntax, but not as a replacement. The semantics of this syntactical extension is totally the same as of usual `import ... from`.
