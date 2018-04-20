@@ -20,7 +20,7 @@ The actual module code is being imported before any code runs.
 This approach gives ample possibilities for performing static checking. That's why advanced autocompletion features are possible.
 But with current syntax it's not convinient to use the autocompletion features at all. 
 Until user typed a module name, a text editor cannot deduct what to complete.
-So developer has to type at least `import from 'module'` and start typing brackets after `import` word then to get autocompletion running. It doesn't feel so much convenient. 
+So developer has to type at least `import from 'module'` and start typing braces after `import` word then to get autocompletion running. It doesn't feel so much convenient. 
 The Python-like syntax `from 'module' import ...` feels more organic way to import using autocompletion. So here comes this proposal to add support for this syntax too. The examples provided below show the main difference.
 
 In this first example a developer has to type everything else before actually typing exported field names to get autocompletiong running.
