@@ -28,7 +28,7 @@ In this first example a developer has to type everything else before actually ty
 import { Component } from 'react';
 ```
 
-In the second example a developer could just type an import statement in an organic left-to-right way. An editor will be able to identify the module name even before typing an opening bracket, so autocompletion will run when expected.
+In the second example a developer could just type an import statement in an organic left-to-right way. An editor will be able to identify the module name even before typing an opening brace, so autocompletion will run when expected.
 ```javascript
 from 'react' import { Component };
 ```
